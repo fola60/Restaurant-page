@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    margin:0px;
+    padding:0px;
+    height:100vh;
+    background-size: 100%;
+    background-image: url('restaurant.png');
+}
+
+#contents {
+    display: flex;
+
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding:24px;
+    background-color: black;
+    opacity: 50%;
+}
+
+.headerC {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.summary{
+    width:200px;
+    height:200px;
+    font-size: 16px;
+    padding:60px;
+    font-weight: 600;
+}

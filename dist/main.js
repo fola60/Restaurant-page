@@ -1,0 +1,1 @@
+(()=>{const e=document.querySelector("#content"),t=document.createElement("div");t.setAttribute("id","header"),e.appendChild(t);const d=document.createElement("div");d.textContent="Home",n.textContent="Menu";const n=document.createElement("div");d.classList.add("headerC"),n.classList.add("headerC"),t.append("headerC1"),t.append("headerC2")})();
